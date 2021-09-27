@@ -1,0 +1,60 @@
+.sidebarRow {
+  display: flex;
+  flex-direction: row;
+  margin-left: 17px;
+  padding-top: 8px;
+  margin-right: 160px;
+  width: 90%;
+  transition: 100ms ease-out;
+  cursor: pointer;
+}
+.sidebarRow:hover {
+  background-color: #2f3031;
+  border-radius: 10px;
+}
+.sidebarRow__icon {
+  border-radius: 200px;
+}
+.sidebarRow__icon {
+  height: 28px;
+  margin-left: 10px;
+}
+.sidebarRow__title {
+  font-weight: 500;
+  font-size: 15px;
+  margin-top: 4px;
+  color: #e4e6eb;
+  margin-left: 10px;
+}
+.dropdown {
+  display: none;
+  background-image: url(https://facebook.com/rsrc.php/v3/yg/r/fxgvE55fl_E.png);
+  background-size: 21px 21px;
+  background-repeat: no-repeat;
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+  vertical-align: -0.25em;
+  -webkit-filter: invert(62%) sepia(98%) saturate(12%) hue-rotate(175deg)
+    brightness(90%) contrast(96%);
+  background-position: 0 0;
+  margin-left: 5px;
+  margin-top: 5px;
+}
+.dropdown.display {
+  display: block;
+}
+.dropdownDiv {
+  display: none;
+  background-color: #444546;
+  border-radius: 200px;
+  width: 30px;
+  height: 30px;
+}
+.dropdownDiv.display {
+  display: block;
+}
+
+.sidebarRow__icon.vanish {
+  display: none;
+}
